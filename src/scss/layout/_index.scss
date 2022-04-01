@@ -1,0 +1,91 @@
+.no-webp .inicio {
+    background-image: url(../img/header.png);
+}
+.webp .inicio {
+    background-image: url(../img/header.webp);
+}
+
+.header {
+    background-color: $grisOscuro;
+    padding: 1rem 0 3rem 0;
+
+    &.inicio {
+        background-position: center center;
+        background-size: cover;
+
+        @include tablet {
+            min-height: 70rem;
+        }
+
+        .contenido-header {
+            @include tablet {
+                min-height: 70rem;
+            }
+        }
+    }
+
+    .circulo {
+        background-color: $blanco;
+        width: 6.4rem;
+        height: 6.4rem;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        img {
+            height: 60%;
+            width: 60%;
+        }
+    }
+    
+    .logoTxt {
+        color: $blanco;
+        padding-left: 2rem;
+        font-size: 2.5rem;
+        font-weight: $regular;
+        letter-spacing: .3rem;
+    }
+
+    .textoBanner {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding: 5rem 0;
+    
+        @include tablet {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    
+        p {
+            color: $blanco;
+            font-size: 1.6rem;
+        }
+    }
+    
+    .textoGrande {
+        width: 40rem;
+        padding-bottom: 4rem;
+        
+        p {
+            font-size: 5.2rem;
+            font-weight: $black;
+            line-height: 6rem;
+        }
+    }
+}
+
+.contenido-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    h1 {
+        text-align: left;
+        color: $blanco;
+        font-weight: $bold;
+        line-height: 2;
+        max-width: 60rem;
+    }
+}

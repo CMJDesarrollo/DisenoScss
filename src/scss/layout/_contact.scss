@@ -1,0 +1,19 @@
+.contenedor-contact {
+    padding: 8rem 0;
+    text-align: center;
+
+    h2 {
+        text-align: center;
+        color: rgba(84,88,113,.3);
+    }
+
+    p {
+        font-size: 4rem;
+        font-weight: $black;
+    }
+
+    .emailUs {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}

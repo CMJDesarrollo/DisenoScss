@@ -1,0 +1,66 @@
+.contenedor-affordable {
+    padding: 8rem 0;
+
+    h2 {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    .subtitulo {
+        width: 100%;
+        text-align: center;
+        font-size: 2.4rem;
+        color: $grisOscuro;
+        line-height: 3rem;
+    }
+
+    button {
+        margin: 6rem auto 0 auto;
+    }
+}
+
+.cards {
+    @include grid(3, 3rem);
+    margin-top: 10rem;
+}
+
+.card {
+    border: 1px solid $lilaOscuro;
+    border-radius: 1rem;
+    text-align: center;
+
+    .icono {
+        border: 1px solid $lilaOscuro;
+        border-radius: 50%;
+        width: 10rem;
+        height: 10rem;
+        background-color: $lila;
+        padding: 2rem;
+        margin: -5rem auto 4rem auto;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    p {
+        font-size: 2.2rem;
+        line-height: 3rem;
+        margin: 0 7rem;
+    }
+
+    .price {
+        background-color: $azul;
+        width: 100%;
+        margin-top: 4rem;
+        border-top: 1px solid $lilaOscuro;
+        padding: 3rem 2rem 2rem 2rem;
+        line-height: 3.5rem;
+
+        p {
+            color: $gris;
+            font-size: 1.2rem;
+            font-weight: $black;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+@import 'base/normalize';
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/globales';
+@import 'base/utilidades';
+@import 'base/botones';
+
+// Layout
+@import 'layout/index';
+@import 'layout/navegacion';
+@import 'layout/experts';
+@import 'layout/services';
+@import 'layout/pets';
+@import 'layout/affordable';
+@import 'layout/contact';

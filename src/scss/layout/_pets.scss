@@ -1,0 +1,39 @@
+.contenedor-pets {
+    background-color: $grisOscuro;
+    padding: 8rem 0;
+
+    h2 {
+        color: $blanco;
+        text-align: center;
+    }
+
+    button {
+        margin: 8rem auto 0 auto
+
+    }
+}
+
+.gallery-pets {
+    .row {
+        @include grid(2, 5rem);
+        margin-top: 5rem;
+    }
+}
+
+.pet-info {
+    background-color: $blanco;
+    padding: 4rem;
+    border-radius: 1rem;
+    margin: 0;
+
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: 1fr 2fr;
+
+    .desc p {
+        font-size: 2rem;
+        line-height: 2.6rem;
+        padding: 0;
+        margin: 0;
+    }
+}

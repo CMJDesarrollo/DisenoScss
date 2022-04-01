@@ -1,0 +1,41 @@
+.no-webp .imagen {
+    background-image: url(../img/services.png);
+}
+.webp .imagen {
+    background-image: url(../img/services.webp);
+}
+
+@include tablet {
+    .contenedor-services {
+        @include grid(2, 8rem);
+    }
+}
+
+.contenedor-services {
+    .descTxt {
+        padding: 10rem 2rem 10rem 6rem;
+    }
+}
+
+.imagen {
+    background-position: center center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 2rem 4rem;
+    
+    p {
+        color: $blanco;
+        font-size: 1.6rem;
+    }
+}
+
+.bg-lila {
+    background-color: $lila;
+}
+
+.seccion-large {
+    margin: 0;
+}

@@ -1,0 +1,30 @@
+.contenedor-experts {
+    padding: 8rem 0;
+
+    h1 {
+        text-align: left;
+    }
+}
+
+@include tablet {
+    .contenedor-experts {
+        @include grid(2, 8rem);
+    }
+}
+
+.boton-gris-oscuro {
+    margin-top: 6rem;
+}
+
+.gallery {
+    .row {
+        @include grid(2, 3rem);
+        margin-bottom: 5rem;
+
+        .nombre-mascota {
+            margin: -5.4rem 0 0 4rem;
+            color: $blanco;
+            font-size: 1.8rem;
+        }
+    }
+}

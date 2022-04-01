@@ -1,0 +1,11 @@
+.boton-blanco {
+    @include boton($blanco, $grisOscuro, block) 
+}
+
+.boton-gris-oscuro {
+    @include boton($grisOscuro, $blanco, block) 
+}
+
+.boton-rojo {
+    @include boton($rojo, $grisOscuro, block)
+}
